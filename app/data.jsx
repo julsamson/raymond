@@ -16,4 +16,4 @@ const imageSlider = [
     }
 ]
 
-export default imageSlider
+export default imageSlider;
