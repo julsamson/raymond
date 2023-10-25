@@ -78,8 +78,6 @@ export default function Footer() {
                                     <li className="" data-aos="fade-up-right"><Link href="#"><span className="icon-twitter"></span></Link></li>
                                     <li className="" data-aos="fade-up-right"><Link href="#"><span className="icon-facebook"></span></Link></li>
                                     <li className="" data-aos="fade-up-right"><Link href="https://www.instagram.com/raymond__ruff/"><span className="icon-instagram"></span></Link></li>
-                                    <li><Link href="#" ><span>
-                                        </span></Link></li>
                                 </ul>
                             </div>
                         </div>
