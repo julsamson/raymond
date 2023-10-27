@@ -8,6 +8,7 @@ import Navigation from "../components/naviagtion";
 import { useEffect } from "react";
 import AOS from "aos";
 import 'aos/dist/aos.css';
+import { aboutData } from "../data";
 
 
 export default function About() {
@@ -30,10 +31,10 @@ export default function About() {
                             </div>
                             <div className="text col-lg-6 " data-aos="fade-up-right">
                                 <div className="text-inner align-self-start">
-                                    <span className="subheading">About Raymond</span>
-                                    <h3 className="heading">History of Raymond Ruff</h3>
-                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi molestiae earum neque voluptate, laboriosam ipsam laborum doloremque minima aspernatur quisquam repellat ducimus odit, rem sit maiores vitae exercitationem. Fugit, nobis.</p>
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis rerum aut laborum optio quidem vero nihil omnis sed illum sint debitis, nesciunt, dolores, aliquid inventore exercitationem consequatur quia est quibusdam!</p>
+                                    <span className="subheading">{aboutData.title}</span>
+                                    <h3 className="heading">{aboutData.subTitle}</h3>
+                                    <p>{aboutData.description}</p>
+                                    <p>{aboutData.subdescription}</p>
                                 </div>
                             </div>
                         </div>

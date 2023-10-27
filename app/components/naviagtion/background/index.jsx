@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import './slider.css'
-import imageSlider from "../../../data";
+import imageSlider from "./data";
 import Link from "next/link";
 import Image from "next/image";
 // import { useState } from "react";
