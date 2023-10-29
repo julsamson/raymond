@@ -79,3 +79,49 @@ export const SpecialtiesData = {
         price: 'FROM $10.00',
     }],
 }
+
+
+//collaboration with 
+
+export const dancers = [
+    {
+        name: "Angel Nyigu",
+        url: "/images/angle.jpeg",
+        description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus numquam eos, 
+                    eveniet earum quod quidem, quae, quasi libero harum corporis reiciendis minus ipsam doloremque
+                    consequuntur facere ratione! Amet, repellendus recusandae?`,
+        position: "Dancer"
+    },
+    {
+        name: "Yoofi",
+        url: "/images/yoofi.jpeg",
+        description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus numquam eos, 
+                    eveniet earum quod quidem, quae, quasi libero harum corporis reiciendis minus ipsam doloremque 
+                    consequuntur facere ratione! Amet, repellendus recusandae?`,
+        position: "Dancer"
+    },
+    {
+        name: "Angle Nyigu",
+        url: "/images/angle.jpeg",
+        description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus numquam eos, 
+                    eveniet earum quod quidem, quae, quasi libero harum corporis reiciendis minus ipsam doloremque 
+                    consequuntur facere ratione! Amet, repellendus recusandae?`,
+        position: "Dancer"
+    },
+    {
+        name: "Yoofi",
+        url: "/images/yoofi.jpeg",
+        description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus numquam eos, 
+                    eveniet earum quod quidem, quae, quasi libero harum corporis reiciendis minus ipsam doloremque 
+                    consequuntur facere ratione! Amet, repellendus recusandae?`,
+        position: "Dancer"
+    },
+    {
+        name: "Angel Nyigu",
+        url: "/images/angle.jpeg",
+        description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus numquam eos, 
+                    eveniet earum quod quidem, quae, quasi libero harum corporis reiciendis minus ipsam doloremque
+                    consequuntur facere ratione! Amet, repellendus recusandae?`,
+        position: "Dancer"
+    }
+]

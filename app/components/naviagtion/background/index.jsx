@@ -11,6 +11,8 @@ export default function Slider() {
 
     const[currentState, setCurrentState] =useState(0)
 
+    // using timer to change the background image
+
     useEffect(()=>{
         const timer = setTimeout(()=>{
             if(currentState === 2){
@@ -28,6 +30,8 @@ export default function Slider() {
         backgroundSize: 'cover',
         height: '100%'
     }
+
+    //calling the other data from the other
 
     const goToNext = (currentState) => {
         setCurrentState(currentState)

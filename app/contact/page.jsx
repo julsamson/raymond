@@ -65,7 +65,7 @@ export default function Contact() {
                                         <input type="text" className="form-control" placeholder="Subject" />
                                     </div>
                                     <div className="form-group">
-                                        <textarea name id cols="30" rows="7" className="form-control" placeholder="Message"></textarea>
+                                        <textarea name="text" id cols="30" rows="7" className="form-control" placeholder="Message"></textarea>
                                     </div>
                                     <div className="form-group">
                                         <input type="submit" value="Send Message" className="btn btn-primary py-3 px-5" />
