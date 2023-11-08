@@ -42,18 +42,17 @@ export default function Slider() {
             <div style={bgImage}></div>
             <div className="transparent"></div>
             <div className="description top-[20%] md:left-[10%] left-3">
-                <div>
-
-                    <h1 className="text-2xl text-white border rounded-lg p-2"><Link href="/reservation">{imageSlider[currentState].title}</Link></h1>
-                    <p>{imageSlider[currentState].body}</p>
+                <div className="text-center leading-[8px] md:leading-none">
+                    <h1 className="text-xl pt-2 text-left"><Link href="/reservation" className="text-black md:font-bold font-semibold">{imageSlider[currentState].title}</Link></h1>
+                    <p className="text-black md:text-lg text-left">{imageSlider[currentState].body}</p>
                 </div>
-                <div className="boullt">
+                {/* <div className="boullt">
                     {
                         imageSlider.map((imageSlider, currentState)=> (
                             <span className="w-[20px] h-[12px] md:w-[45px]" key={currentState} onClick={()=>goToNext(currentState)}></span>
                         ))
                     }
-                </div>
+                </div> */}
             </div>
         </div>
     )

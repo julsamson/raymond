@@ -13,13 +13,19 @@ export default function Navbar({ toggle }) {
     return (
         <>
 
-            <nav className="relative flex items-center py-2 px-4 flex-row flex-nowrap bg-[#343a40] w-full ">
-                <div className="flex items-center justify-between w-full px-4 mx-auto">
+            <nav className="sticky top-0 flex items-center px-4 flex-row flex-nowrap bg-[#343a40] w-full drop-shadow-xl shadow-slate-500 z-50">
+                <div className="flex items-center justify-between w-full md:px-4 mx-auto">
                     <Link href='/'>
-                        <p className="inline-block p-[3px] my-2 mr-4 text-xl border-2 border-white text-[#f0f0f0]">RAYMOND</p>
+                        <p className="md:mr-4 pt-2 text-xl text-[#f0f0f0] flex items-center">
+                            <img 
+                            src="images/Image.png"
+                            alt="" 
+                            className="md:h-20 h-16 w-auto z-10"
+                            />
+                        </p>
                     </Link>
                     <div className="flex">
-                        <button type="button" className="py-1 px-3 text-xl bg-transparent border border-transparent rounded md:hidden uppercase font-light flex items-center text-[#f0f0f0] cursor-pointer" onClick={toggle}>
+                        <button type="button" className="py-1 px-3 text-xl bg-transparent border border-transparent rounded md:hidden uppercase font-light flex items-center text-[#f0f0f0] cursor-pointer z-10" onClick={toggle}>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                             </svg>
